@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 
 3. Rename the `.env.example` file to `.env` in the root directory and update your base url the API is running on:
    ```
-   API_BASE_URL=your_base_url_here
+   REACT_APP_API_BASE_URL=your_base_url_here
    ```
 
 ## Running the Application
