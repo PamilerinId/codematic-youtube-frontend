@@ -1,6 +1,9 @@
-# YouTube Video Details App
+# CodeMatic | YouTube Video Details App
 
-This project is a full-stack application that fetches and displays details and comments for YouTube videos using the YouTube Data API.
+This project is a simple frontend application that fetches and displays details and comments for YouTube videos using the [Youtube Processor](https://github.com/PamilerinId/codematic-youtube-backennd) which depends on the YouTube Data API.
+
+## Screenshot
+![alt text](image.png)
 
 ## Features
 
@@ -21,23 +24,19 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/youtube-video-details-app.git
-   cd youtube-video-details-app
+   git clone https://github.com/PamilerinId/codematic-youtube-frontend.git
+   cd codematic-youtube-frontend
    ```
 
-2. Install dependencies:
+2. Clone and run the data processor [here](https://github.com/PamilerinId/codematic-youtube-backennd) first !!!
+3. Install dependencies:
    ```
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your YouTube API key:
+3. Rename the `.env.example` file to `.env` in the root directory and update your base url the API is running on:
    ```
-   REACT_APP_YOUTUBE_API_KEY=your_api_key_here
-   ```
-
-4. Update the `API_BASE_URL` in `src/VideoDetails.tsx` if your backend is running on a different URL:
-   ```typescript
-   const API_BASE_URL = 'http://localhost:8000'; // Adjust this to match your backend URL
+   API_BASE_URL=your_base_url_here
    ```
 
 ## Running the Application
@@ -48,7 +47,3 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 2. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Building for Production
-
-To build the app for production, run:
