@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:8004';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8004';
 
 interface VideoDetails {
   title: string;
