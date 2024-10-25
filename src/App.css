@@ -131,7 +131,6 @@ button:disabled {
   text-decoration: underline;
 }
 
-/* Add this after your existing styles */
 
 .loader {
   border: 5px solid #f3f3f3;
